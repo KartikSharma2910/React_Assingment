@@ -1,0 +1,35 @@
+.card :hover .hoverEffect {
+  width: 65%;
+  margin: 1rem;
+  border: 2px solid #f1f1f1;
+  background-color: #e9f2ec;
+  height: min-content;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  visibility: visible;
+  transition-delay: 5s;
+  font-size: 22px;
+  padding: 1rem;
+  color: rgb(68, 162, 217);
+  cursor: pointer;
+}
+
+.cardImage {
+  width: 100%;
+  height: 400px;
+  cursor: pointer;
+}
+
+.info {
+  padding: 2px 16px;
+}
+
+.hoverEffect {
+  visibility: hidden;
+  display: block;
+}
+
+.routeLink {
+  text-decoration: none;
+}
